@@ -11,27 +11,29 @@
         <input type="text" name="" id="displayBox" readonly>
         <br><br>
        <div id="keys">
-        <button oncanplay="appendToDisplay('7')">7</button>
-        <button oncanplay="appendToDisplay('8')">8</button>
-        <button oncanplay="appendToDisplay('9')">9</button>
-        <button oncanplay="appendToDisplay('+')" class="operators">+</button>
+        <button onclick="appendToDisplay('7')">7</button>
+        <button onclick="appendToDisplay('8')">8</button>
+        <button onclick="appendToDisplay('9')">9</button>
+        <button onclick="appendToDisplay('+')" class="operators">+</button>
 
-        <button oncanplay="appendToDisplay('4')">4</button>
-        <button oncanplay="appendToDisplay('5')">5</button>
-        <button oncanplay="appendToDisplay('6')">6</button>
-        <button oncanplay="appendToDisplay('-')" class="operators">-</button>
+        <button onclick="appendToDisplay('4')">4</button>
+        <button onclick="appendToDisplay('5')">5</button>
+        <button onclick="appendToDisplay('6')">6</button>
+        <button onclick="appendToDisplay('-')" class="operators">-</button>
 
-        <button oncanplay="appendToDisplay('1')">1</button>
-        <button oncanplay="appendToDisplay('2')">2</button>
-        <button oncanplay="appendToDisplay('3')">3</button>
-        <button oncanplay="appendToDisplay('*')" class="operators">x</button>
+        <button onclick="appendToDisplay('1')">1</button>
+        <button onclick="appendToDisplay('2')">2</button>
+        <button onclick="appendToDisplay('3')">3</button>
+        <button onclick="appendToDisplay('*')" class="operators">x</button>
 
         
-        <button oncanplay="appendToDisplay('.')">.</button>
-        <button oncanplay="appendToDisplay('c')" class="special">C</button>
-        <button oncanplay="appendToDisplay('=')" class="special">=</button>
-        <button oncanplay="appendToDisplay('/')" class="operators">/</button>
+        <button onclick="appendToDisplay('.')">.</button>
+        <button onclick="clearDisplay('c')" class="special">C</button>
+        <button onclick="calculate('=')" class="special">=</button>
+        <button onclick="appendToDisplay('/')" class="operators">/</button>
        </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
